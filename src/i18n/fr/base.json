@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "Yewi",
+    "tagline": "Kit d'interface utilisateur basé sur les composants pour Yew",
+    "description": "Une bibliothèque d'interface utilisateur moderne avec style Tailwind + SCSS, inspirée des modèles React/Next.js.",
+    "cards": {
+      "getStarted": {
+        "title": "Démarrer",
+        "command": "yewi new mon-app"
+      },
+      "addComponent": {
+        "title": "Ajouter un composant",
+        "command": "yewi add button"
+      },
+      "documentation": {
+        "title": "Documentation",
+        "link": "yewi.pages.dev"
+      },
+      "source": {
+        "title": "Source",
+        "link": "github.com"
+      }
+    }
+  },
+  "not-found": {
+    "text": "Page non trouvée"
+  }
+}

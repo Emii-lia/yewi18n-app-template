@@ -1,0 +1,28 @@
+{
+  "home": {
+    "title": "Yewi",
+    "tagline": "Component-driven UI kit for Yew",
+    "description": "A modern UI library with Tailwind + SCSS styling, inspired by React/Next.js patterns.",
+    "cards": {
+      "getStarted": {
+        "title": "Get Started",
+        "command": "yewi new my-app"
+      },
+      "addComponent": {
+        "title": "Add Component",
+        "command": "yewi add button"
+      },
+      "documentation": {
+        "title": "Documentation",
+        "link": "yewi.pages.dev"
+      },
+      "source": {
+        "title": "Source",
+        "link": "github.com"
+      }
+    }
+  },
+  "not-found": {
+    "text": "Page not found"
+  }
+}
