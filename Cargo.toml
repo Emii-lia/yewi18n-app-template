@@ -1,0 +1,13 @@
+[package]
+name = "yewi18n-app-template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+yew = { version = "0.22.0", features = ["csr", "serde"] }
+wasm-logger = "0.2.0"
+yew-router = "0.19.0"
+web-sys = { version = "0.3.83", features = ["DataTransfer"] }
+gloo = "0.11.0"
+yew_icons = { version = "0.9.0", features = ["lucide"] }
+i18nrs = { version = "0.1.9", features = ["yew"] }
