@@ -13,7 +13,7 @@ To start the development server, run:
 trunk serve
 ```
 Open [http://localhost:8081](http://localhost:8081) with your browser to see the result.
-You can start editing the page by modifying `src/app/page.rs` or add components from [Yewi-kit](https://yewi.pages.dev) by running:
+You can start editing the page by modifying `src/app/page.rs` or add components from [Yewi-kit](https://yewi.fiaro.app) by running:
 
 ``` bash
 yewi add button
@@ -26,7 +26,7 @@ yewi add
 ## Learn more
 
 To learn more about **Yewi-kit**, check the following resources:
-- [Yewi-kit-Documentation](https://yewi.pages.dec): for installation and components usage guide
+- [Yewi-kit-Documentation](https://yewi.fiaro.app): for installation and components usage guide
 - [Yewi-kit-Repository](https://github.com/Emii-lia/yewi-kit): Components source code with preview examples
 
 To get the list of available components, run the command:
