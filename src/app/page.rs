@@ -39,8 +39,8 @@ pub(crate) fn home(props: &Props) -> Html {
             </div>
             <div class="yewi-card">
               <h3>{i18n.t("home.cards.documentation.title")}</h3>
-              <a href="https://yewi.pages.dev" target="_blank" rel="noopener noreferrer">
-                {"yewi.pages.dev"}
+              <a href="https://yewi.fiaro.app" target="_blank" rel="noopener noreferrer">
+                {"yewi.fiaro.app"}
               </a>
             </div>
             <div class="yewi-card">
