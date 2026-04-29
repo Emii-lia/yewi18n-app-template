@@ -1,12 +1,12 @@
 use i18nrs::yew::use_translation;
-use yew::{function_component, html, use_effect_with, Html, Properties};
+use yew::{component, html, use_effect_with, Html, Properties};
 
 #[derive(Properties, PartialEq)]
 pub(crate) struct Props {
   #[prop_or(String::from("en"))]
   pub(crate) locale: String
 }
-#[function_component(Home)]
+#[component(Home)]
 pub(crate) fn home(props: &Props) -> Html {
   let (i18n, set_language) = use_translation();
 
