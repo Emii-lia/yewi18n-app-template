@@ -2,6 +2,7 @@
 name = "yewi18n-app-template"
 version = "0.1.0"
 edition = "2024"
+build = "build.rs"
 
 [dependencies]
 yew = { version = "0.22.0", features = ["csr", "serde"] }
