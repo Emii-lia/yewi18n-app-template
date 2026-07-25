@@ -1,6 +1,4 @@
-use std::ops::Not;
 use yew::{html, Html};
-use yew_router::prelude::Redirect;
 use yew_router::{Routable, Switch};
 use crate::app::{Home};
 use crate::app::not_found::NotFound;
@@ -30,7 +28,6 @@ pub enum LocaleRoot {
 pub fn switch_locale(route: LocaleRoot) -> Html {
   match route {
     LocaleRoot::Home { locale } => html! {<Home locale={locale} />},
-    // LocaleRoot::NotFound => html! { <Redirect<AppRoute> to={AppRoute::NotFound}/>}
     LocaleRoot::NotFound => html! { <NotFound />}
   }
 }
